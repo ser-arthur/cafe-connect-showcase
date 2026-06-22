@@ -10,8 +10,7 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
 
 ## Screenshots
 
-##
-##
+###
 
 <p align="center">
   <img src="screenshots/hero-mobile.png" alt="CafeConnect on mobile" width="60%"><br>
@@ -35,7 +34,7 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
 </p>
 
 ##
-##
+###
 
 <table>
   <tr>
@@ -62,6 +61,8 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
     </td>
   </tr>
 </table>
+
+###
 
 ## What it offers
 
