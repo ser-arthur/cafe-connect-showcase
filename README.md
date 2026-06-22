@@ -20,10 +20,14 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
   <sub>The landing page</sub>
 </p>
 
+##
+
 <p align="center">
   <img src="screenshots/browse-city.png" alt="Browse cafés by city" width="100%"><br>
   <sub>Browse by city, with the directory's running totals</sub>
 </p>
+
+##
 
 <table>
   <tr>
@@ -57,11 +61,11 @@ Browse and sort the directory, or search for cafés near you using your location
 
 ## Design
 
-The look is premium and deliberately restrained: a warm amber accent over charcoal and cream, generous spacing, and typography carrying most of the weight. The interface is mobile-first and scales up cleanly to desktop. The palette is amber (`#ffc451`), charcoal (`#222222`) and cream (`#faf9f7`); display type is Raleway, body type Poppins.
+The interface uses a warm amber accent (`#ffc451`) over charcoal (`#222222`) and cream (`#faf9f7`) backgrounds. Headings are set in Raleway and body text in Poppins. The layout is responsive, built mobile-first and scaling up to desktop.
 
 ## Approach
 
-The app is server-rendered with Flask and Jinja, styled with Tailwind compiled through the Tailwind CLI, with no heavy single-page framework, so pages paint fast and a little vanilla JavaScript handles the map and location search. Authentication is split by surface: the web app uses server-side sessions, while the API is stateless and uses signed JWT bearer tokens. In production it runs on PostgreSQL with object storage for images and a nightly data reset; locally it runs on SQLite with no external services required.
+The app is server-rendered with Flask and Jinja, styled with Tailwind compiled through the Tailwind CLI, with no heavy single-page framework, so pages paint fast and a little vanilla JavaScript handles the map and location search. The web app and the API authenticate differently: the web app uses server-side sessions, while the API is stateless and uses signed JWT bearer tokens. In production it runs on PostgreSQL with object storage for images and a nightly data reset; locally it runs on SQLite with no external services required.
 
 ## Stack
 
@@ -84,6 +88,6 @@ The app is server-rendered with Flask and Jinja, styled with Tailwind compiled t
 
 A full REST API sits alongside the web app, exposing the café data over JSON with token authentication, filtering, search and distance queries. See [API.md](API.md) for the endpoint reference, authentication, testing and integration examples.
 
-## The code
+## Source code
 
 This repository is a showcase of CafeConnect, a personal project. The application source is kept private and is not open source, but it can be shared for review on request.
