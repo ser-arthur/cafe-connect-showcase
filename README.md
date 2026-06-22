@@ -11,7 +11,7 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/hero-mobile.png" alt="CafeConnect on mobile" width="70%"><br>
+  <img src="screenshots/hero-mobile.png" alt="CafeConnect on mobile" width="60%"><br>
   <sub>CafeConnect on mobile: home, a listing, and amenities at a glance</sub>
 </p>
 
@@ -19,8 +19,6 @@ Browsing is open to everyone. To try the signed-in features, adding a café and 
   <img src="screenshots/home.png" alt="The CafeConnect landing page" width="100%"><br>
   <sub>The landing page</sub>
 </p>
-
-##
 
 <p align="center">
   <img src="screenshots/browse-city.png" alt="Browse cafés by city" width="100%"><br>
